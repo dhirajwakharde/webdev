@@ -22,18 +22,21 @@ h1{
 	text-align: left;
 	margin: 5px;
 	border: 1px solid black;
+	padding: 10px;
 }
 .col-2 p{
 	background-color: lightblue;
 	text-align: left;
 	margin: 5px;
 	border: 1px solid black;
+	padding: 10px;
 }
 .col-1 p{
 	background-color: lightblue;
 	text-align: left;
 	margin: 5px;
 	border: 1px solid black;
+	padding: 10px;
 }
 
 @media (min-width: 992px) {
