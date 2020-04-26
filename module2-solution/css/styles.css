@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	font-family: serif;
+	font-size: 16px;
+}
+h1{
+	text-align: center;
+	padding: 10px;
+}
+.wrapper {
+	width: 100%;
+}
+.col-3,.col-2,.col-1{
+	width: 100%;
+}
+.col-3 p{
+	background-color: lightblue;
+	text-align: left;
+	margin: 5px;
+	border: 1px solid black;
+}
+.col-2 p{
+	background-color: lightblue;
+	text-align: left;
+	margin: 5px;
+	border: 1px solid black;
+}
+.col-1 p{
+	background-color: lightblue;
+	text-align: left;
+	margin: 5px;
+	border: 1px solid black;
+}
+
+@media (min-width: 992px) {
+	.wrapper {
+		margin: 0px auto;
+	}
+	.col-1 {
+		width: 33.33%;
+		float: left;
+	}
+	.col-2 {
+		width: 33.33%;
+		float: left;
+	}
+	.col-3 {
+		width: 33.33%;
+		float: right;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.wrapper {
+		margin: 0px auto;
+	}
+	.col-1 {
+		width: 50%;
+		float: left;
+	}
+	.col-2 {
+		width: 50%;
+		float: left;
+	}
+	.col-3 {
+		clear: both;
+		float: none;
+		width: 100%;
+	}
+	#name3{
+		margin-top: 0px;
+	}
+}
+@media (max-width:767px){
+	.wrapper{
+		margin: 0px auto;
+	}
+	#name1,#name2,#name3 {
+		margin: 0px;
+		margin-right: 5px;
+	}
+}
+#name1,#name2,#name3 {
+	text-align: center;
+	width: 100px;
+	margin-left: 5px;
+	float: right;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-collapse: collapse;
+	font-size: 20px;
+	font-weight: bold;
+}
+#name1{
+	background-color: yellow;
+	margin-left: 100%;
+}
+#name2{
+	background-color: red;
+	color: white;
+	margin-left: 100%;
+}
+#name3{
+	background-color: pink;
+	margin-left: 100%;
+}
